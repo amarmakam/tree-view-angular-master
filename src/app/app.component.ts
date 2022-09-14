@@ -1,137 +1,141 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: "my-app",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"],
+  selector: 'assets',
+  templateUrl: './assets.component.html',
+  styleUrls: ['./assets.component.scss']
 })
-export class AppComponent {
+export class AssetsComponent implements OnInit {
+
   arr = [
     {
-      id: "group_1",
-      name: "Group 1",
+      id: 'group_1',
+      name: 'Group 1',
       items: [
         {
-          id: "group_1.abc",
-          name: "Tenet HealthCare Corporation",
+          id: 'group_1.abc',
+          name: 'Tenet HealthCare Corporation',
           total: 10183736,
           expand: false,
           childs: [
             {
-              id: "group_1.abc.action_See_List",
-              name: "UN2N2",
+              id: 'group_1.abc.action_See_List',
+              name: 'UN2N2',
               total: 1263673,
-              description: "FIAM ITM INF-PR BD D $585112 F FPRS",
+              description: 'FIAM ITM INF-PR BD D $585112 F FPRS',
               expand: false,
               subChilds: [
                 {
-                  id: "group_1.abc.action_See_List_List1",
-                  name: "UN2N3",
+                  id: 'group_1.abc.action_See_List_List1',
+                  name: 'UN2N3',
                   total: 1263673,
-                  description: "FIAM ITM INF-PR BD D $585112",
+                  description: 'FIAM ITM INF-PR BD D $585112',
                   expand: false,
                   sub_Childs: [
                     {
-                      id: "group_1.abc.action_See_List_List1",
-                      name: "UN2N3",
+                      id: 'group_1.abc.action_See_List_List1',
+                      name: 'UN2N3',
                       total: 1263673,
-                      description: "FIAM ITM INF-PR BD D $585112",
+                      description: 'FIAM ITM INF-PR BD D $585112',
                       expand: false,
                     },
                     {
-                      id: "group_1.abc.action_See_List_List1",
-                      name: "UN2N3",
+                      id: 'group_1.abc.action_See_List_List1',
+                      name: 'UN2N3',
                       total: 1263673,
-                      description: "FIAM ITM INF-PR BD D $585112",
+                      description: 'FIAM ITM INF-PR BD D $585112',
                       expand: false,
-                    },
-                  ],
+                    }
+                  ]
                 },
                 {
-                  id: "group_1.abc.action_See_List_List2",
-                  name: "UN2N3",
+                  id: 'group_1.abc.action_See_List_List2',
+                  name: 'UN2N3',
                   total: 1263673,
-                  description: "FIAM ITM INF-PR BD D $585112",
+                  description: 'FIAM ITM INF-PR BD D $585112',
                   expand: false,
                   sub_Childs: [
                     {
-                      id: "group_1.abc.action_See_List_List1",
-                      name: "UN2N3",
+                      id: 'group_1.abc.action_See_List_List1',
+                      name: 'UN2N3',
                       total: 1263673,
-                      description: "FIAM ITM INF-PR BD D $585112",
+                      description: 'FIAM ITM INF-PR BD D $585112',
                       expand: false,
                     },
                     {
-                      id: "group_1.abc.action_See_List_List1",
-                      name: "UN2N3",
+                      id: 'group_1.abc.action_See_List_List1',
+                      name: 'UN2N3',
                       total: 1263673,
-                      description: "FIAM ITM INF-PR BD D $585112",
+                      description: 'FIAM ITM INF-PR BD D $585112',
                       expand: false,
-                    },
-                  ],
+                    }
+                  ]
                 },
-              ],
+
+              ]
             },
             {
-              id: "group_1.abc.action_See_List",
-              name: "UN2N3",
+              id: 'group_1.abc.action_See_List',
+              name: 'UN2N3',
               total: 1263673,
-              description: "FIAM ITM INF-PR BD D $585112 F FPRS",
+              description: 'FIAM ITM INF-PR BD D $585112 F FPRS',
               expand: false,
               subChilds: [
                 {
-                  id: "group_1.abc.action_See_List_List1",
-                  name: "UN2N633",
+                  id: 'group_1.abc.action_See_List_List1',
+                  name: 'UN2N633',
                   total: 12638673,
-                  description: "FIAM ITM INF-PR BD D $585112",
+                  description: 'FIAM ITM INF-PR BD D $585112',
                   expand: false,
                   sub_Childs: [
                     {
-                      id: "group_1.abc.action_See_List_List1",
-                      name: "UN2N837",
+                      id: 'group_1.abc.action_See_List_List1',
+                      name: 'UN2N837',
                       total: 873629,
-                      description: "FIAM ITM INF-PR BD D $585112",
+                      description: 'FIAM ITM INF-PR BD D $585112',
                       expand: false,
                     },
                     {
-                      id: "group_1.abc.action_See_List_List1",
-                      name: "UN2N3",
+                      id: 'group_1.abc.action_See_List_List1',
+                      name: 'UN2N3',
                       total: 1263673,
-                      description: "FIAM ITM INF-PR BD D $585112",
+                      description: 'FIAM ITM INF-PR BD D $585112',
                       expand: false,
-                    },
-                  ],
+                    }
+                  ]
                 },
                 {
-                  id: "group_1.abc.action_See_List_List2",
-                  name: "UN2N3",
+                  id: 'group_1.abc.action_See_List_List2',
+                  name: 'UN2N3',
                   total: 1263673,
-                  description: "FIAM ITM INF-PR BD D $585112",
+                  description: 'FIAM ITM INF-PR BD D $585112',
                   expand: false,
                   sub_Childs: [
                     {
-                      id: "group_1.abc.action_See_List_List1",
-                      name: "UN2N3",
+                      id: 'group_1.abc.action_See_List_List1',
+                      name: 'UN2N3',
                       total: 1263673,
-                      description: "FIAM ITM INF-PR BD D $585112",
+                      description: 'FIAM ITM INF-PR BD D $585112',
                       expand: false,
                     },
                     {
-                      id: "group_1.abc.action_See_List_List1",
-                      name: "UN2N3",
+                      id: 'group_1.abc.action_See_List_List1',
+                      name: 'UN2N3',
                       total: 1263673,
-                      description: "FIAM ITM INF-PR BD D $585112",
+                      description: 'FIAM ITM INF-PR BD D $585112',
                       expand: false,
-                    },
-                  ],
+                    }
+                  ]
                 },
-              ],
+
+              ]
             },
           ],
-        },
+        }
       ],
     },
   ];
+
 
   constructor() {}
 
@@ -146,4 +150,6 @@ export class AppComponent {
     this.arr[group_i].items[parent_i].childs[child_i].subChilds[i].expand =
       !this.arr[group_i].items[parent_i].childs[child_i].subChilds[i].expand;
   }
+
+
 }
