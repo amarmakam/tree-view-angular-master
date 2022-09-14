@@ -38,5 +38,18 @@ ul {
   .parent-name{
       text-decoration: underline;
       color: blue;
+      margin-top: -4px;
   }
   
+.p-20p{
+  padding: 0 20px;
+}
+
+.head-txt {
+    
+    background-color: azure;
+}
+
+.head-txt-cp{
+border-bottom: 1px solid black;
+}
