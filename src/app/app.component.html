@@ -52,13 +52,26 @@
                   <div class="d-flex justify-content-between">
                     <div>
                       <i class="cursor-pointer  mx-2 p-r-20 f-s-20" aria-hidden="true"
-                        [ngClass]="!sub_child.expand? 'fa fa-plus-square' : 'fa fa-minus-square' ">
+                        [ngClass]="!showData? 'fa fa-plus-square' : 'fa fa-minus-square' " (click)="checklastChild()">
                       </i>
                       <span class="cursor-pointer  mx-2 p-r-200">{{sub_child.name}}</span>
                     </div>
                     <span class="cursor-pointer   ">{{sub_child.description}}</span>
                     <span class="cursor-pointer    ">{{sub_child.total |currency }}</span>
                   </div>
+
+                  <div *ngIf="showData" style="margin-left: 60px;">
+                    <li *ngFor="let data of sub_child.data">
+                      <div class="d-flex justify-content-between">
+                        <div>
+                          <span class="cursor-pointer  mx-2 p-r-200">{{data.name}}</span>
+                        </div>
+                        <span class="cursor-pointer   ">{{data.description}}</span>
+                        <span class="cursor-pointer    ">{{data.total |currency }}</span>
+                      </div>
+                    </li>
+                  </div>
+                 
                 </li>
               </ul>
             </li>
