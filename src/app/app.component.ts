@@ -5,7 +5,6 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-
   assetsData;
 
   aseetsResponseData = [
@@ -2126,6 +2125,2800 @@ export class AppComponent {
             ta: "FBSI",
           },
         ],
+      },
+    },
+  ];
+
+  grpAssetsResponse = [
+    {
+      name: "TENET HEALTHCARE CORPORATION",
+      groupMap: {
+        expand: false,
+        NN: {
+          groupDisciplineName: "Outside Funds",
+          summaryMap: {
+            FI: {
+              summaryDisciplineName: "Fixed income",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHGF",
+                  amount: "83566.0700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBA9",
+                  amount: "74568.1500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OKAO",
+                  amount: "20988.9200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OSM6",
+                  amount: "1005.9600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FA7U",
+                  amount: "16015.5300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAST",
+                  amount: "31558.4200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGQG",
+                  amount: "15397.3400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC9Q",
+                  amount: "4970.1000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGVF",
+                  amount: "380164.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAPH",
+                  amount: "27370.3800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHO5",
+                  amount: "42333.9300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDKU",
+                  amount: "80490.9000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDOR",
+                  amount: "962.7500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCV3",
+                  amount: "7441.7700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHDY",
+                  amount: "852813.8700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHEB",
+                  amount: "189261.2700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFOK",
+                  amount: "4971.6400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHRX",
+                  amount: "19690.8500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDCX",
+                  amount: "21528.3600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCE0",
+                  amount: "282782.7300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFY0",
+                  amount: "3.3000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDDQ",
+                  amount: "32874.9100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OKW6",
+                  amount: "7347.3700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OSWK",
+                  amount: "18591.3600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHVQ",
+                  amount: "70671.3000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDEJ",
+                  amount: "44710.9700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OEKN",
+                  amount: "226466.6700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHQ9",
+                  amount: "189654.1500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OYCR",
+                  amount: "8353347.3522",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEKR",
+                  amount: "30381.5300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGHZ",
+                  amount: "64995.4600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OYDY",
+                  amount: "9433.6300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAO0",
+                  amount: "13678.6600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGPX",
+                  amount: "5854.1600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FD13",
+                  amount: "5304.3100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FB1G",
+                  amount: "7247.8500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFQ6",
+                  amount: "64.5500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCUL",
+                  amount: "30742.9100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEBY",
+                  amount: "1279.8600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBXH",
+                  amount: "21763.2700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHDL",
+                  amount: "284148.4100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFYH",
+                  amount: "30816.9300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGJB",
+                  amount: "31424.4300",
+                },
+              ],
+            },
+            IQ: {
+              summaryDisciplineName: "International equity",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFAG",
+                  amount: "2047.3000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGMK",
+                  amount: "89326.0200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBS6",
+                  amount: "2280.7200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBKW",
+                  amount: "1269.9900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFCH",
+                  amount: "7906.5500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFIY",
+                  amount: "4560.8000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGDD",
+                  amount: "1722.3600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FA68",
+                  amount: "60109.1200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHDH",
+                  amount: "361546.6000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OE5H",
+                  amount: "11293.7900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OF04",
+                  amount: "106116.5900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHSN",
+                  amount: "58616.6400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCIQ",
+                  amount: "8461.8500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAKC",
+                  amount: "1373.6600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDWX",
+                  amount: "8660.4300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCYQ",
+                  amount: "43991.0700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBYK",
+                  amount: "11903.3900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OMCE",
+                  amount: "55492.3500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC9R",
+                  amount: "46307.0800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FH2X",
+                  amount: "1385.0500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFUB",
+                  amount: "16914.8300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFPA",
+                  amount: "2491.9500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBED",
+                  amount: "1942.7700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAB3",
+                  amount: "1714.0300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FASJ",
+                  amount: "16433.1300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OF3F",
+                  amount: "3446.2700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEOR",
+                  amount: "1374.4600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDY8",
+                  amount: "1184.2500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGNM",
+                  amount: "24616.2100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCGT",
+                  amount: "26670.5700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBEB",
+                  amount: "2934.2500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAG2",
+                  amount: "13.2900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBJM",
+                  amount: "21948.0100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDKS",
+                  amount: "30229.5200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFOI",
+                  amount: "52456.3100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBNQ",
+                  amount: "6821.3700",
+                },
+              ],
+            },
+            BL: {
+              summaryDisciplineName: "Blended",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OSHF",
+                  amount: "58376.6900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDW3",
+                  amount: "18144.0500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHJ0",
+                  amount: "14081.0600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFZ8",
+                  amount: "181231.1500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCCC",
+                  amount: "114215.4100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFSL",
+                  amount: "8395.8500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHEG",
+                  amount: "314724.5300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFQJ",
+                  amount: "27590.9000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHSL",
+                  amount: "127316.8400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAXM",
+                  amount: "6669.9200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHEC",
+                  amount: "404783.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OEZY",
+                  amount: "6273.3800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBHD",
+                  amount: "30762.1800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OF42",
+                  amount: "70148.3300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFQI",
+                  amount: "76533.4500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFW9",
+                  amount: "190.9500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHSM",
+                  amount: "30311.3800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHAP",
+                  amount: "28043.8500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FD70",
+                  amount: "15884.7100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGN4",
+                  amount: "1405.0400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHM9",
+                  amount: "49508.9200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHEA",
+                  amount: "126572.8700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHRW",
+                  amount: "545236.0600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFQX",
+                  amount: "297316.4300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHP9",
+                  amount: "2016.0800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OSRV",
+                  amount: "4023.6000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCM7",
+                  amount: "28049.8400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDFA",
+                  amount: "2608.1900",
+                },
+              ],
+            },
+            DQ: {
+              summaryDisciplineName: "Domestic equity",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBG2",
+                  amount: "775.6300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC0Z",
+                  amount: "5680.8300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OQBZ",
+                  amount: "4989.9900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDVQ",
+                  amount: "358430.1300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FH2B",
+                  amount: "10886.1100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OSX7",
+                  amount: "85776011.4172",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OQLV",
+                  amount: "47714.2800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGVE",
+                  amount: "185709.4600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDOD",
+                  amount: "106424.5100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFJ3",
+                  amount: "363.4000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAUX",
+                  amount: "24499.2400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHDG",
+                  amount: "488459.8300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAG5",
+                  amount: "6894.5900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFLO",
+                  amount: "2945.4300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFN1",
+                  amount: "14489.2400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FD4I",
+                  amount: "2035.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OMCD",
+                  amount: "32067.1400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDKX",
+                  amount: "15869.9100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBUG",
+                  amount: "13696.9400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDDZ",
+                  amount: "93836.3900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGVM",
+                  amount: "222342.5300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBQ3",
+                  amount: "9571.8800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FA7E",
+                  amount: "43393.8400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OMKD",
+                  amount: "7844.6400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGE5",
+                  amount: "948.2000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAKO",
+                  amount: "4537.4200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEA1",
+                  amount: "1456.0700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FB9Z",
+                  amount: "19711.9800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGOL",
+                  amount: "16345.9400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OSUN",
+                  amount: "66179.1500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDBO",
+                  amount: "18488.8700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFAR",
+                  amount: "1865.2400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDGM",
+                  amount: "332000.7300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAHH",
+                  amount: "68641.1000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHO7",
+                  amount: "96183.0300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDMA",
+                  amount: "50562.0500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGVG",
+                  amount: "190947.8000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDHP",
+                  amount: "96805.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCNW",
+                  amount: "5085.2200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHKU",
+                  amount: "3172.3800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAIG",
+                  amount: "46840.7400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FB01",
+                  amount: "2007.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFJH",
+                  amount: "127220.1400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC11",
+                  amount: "224729.1000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHF5",
+                  amount: "3238.0400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHO6",
+                  amount: "92661.3100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OELQ",
+                  amount: "43619.9900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHHE",
+                  amount: "24235.3900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FH12",
+                  amount: "3979.5800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OMKH",
+                  amount: "10774.1100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDKC",
+                  amount: "49215.6700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFZR",
+                  amount: "31448.3100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FD7X",
+                  amount: "53217.7900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGU6",
+                  amount: "22652.0000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAL8",
+                  amount: "41189.9200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEGB",
+                  amount: "24174.9200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHQK",
+                  amount: "45414.2700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGMR",
+                  amount: "11566.5400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFXH",
+                  amount: "105013.6200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDIO",
+                  amount: "50052.5400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FA30",
+                  amount: "9545.5100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBQ1",
+                  amount: "5893.6200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDLD",
+                  amount: "103872.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHOJ",
+                  amount: "77242.7400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBM8",
+                  amount: "1958.9400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFMD",
+                  amount: "59478.7600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDUS",
+                  amount: "22049.3700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGL7",
+                  amount: "4124.9300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHDJ",
+                  amount: "454118.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDZH",
+                  amount: "32613.5600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGS1",
+                  amount: "6609.1800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC6S",
+                  amount: "21170.2500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OIIJ",
+                  amount: "4749.0400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFUZ",
+                  amount: "282721.1200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OF63",
+                  amount: "6806.2300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC4B",
+                  amount: "9483.2200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCKB",
+                  amount: "61233.2400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FD3H",
+                  amount: "64995.3200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHAG",
+                  amount: "1476.2900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDKR",
+                  amount: "3048.8900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHOQ",
+                  amount: "4504.2200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FATH",
+                  amount: "1402.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FH49",
+                  amount: "281.2900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGMQ",
+                  amount: "4091.0500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDMH",
+                  amount: "1544.2100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEL7",
+                  amount: "14226.0900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBMQ",
+                  amount: "31920.0800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCGY",
+                  amount: "12941.9400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFMB",
+                  amount: "181342.7000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC5B",
+                  amount: "45420.7400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHDI",
+                  amount: "709799.1400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGDB",
+                  amount: "29886.0200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAR4",
+                  amount: "60060.8500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCFE",
+                  amount: "54912.7400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCNP",
+                  amount: "4638.3200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEC3",
+                  amount: "2751.0600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBAK",
+                  amount: "53058.7500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OF8L",
+                  amount: "97162.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBSE",
+                  amount: "41865.5500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBXI",
+                  amount: "11657.3800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBRZ",
+                  amount: "27306.3200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDRQ",
+                  amount: "380.9600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OMAU",
+                  amount: "8558.4200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDGN",
+                  amount: "527647.5600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEF3",
+                  amount: "4632.2400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFAQ",
+                  amount: "17894.1300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OSEO",
+                  amount: "103687.4000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OF3G",
+                  amount: "4738.1900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OF61",
+                  amount: "94090.8600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGVA",
+                  amount: "307055.1600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCPU",
+                  amount: "26127.0100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBUL",
+                  amount: "5404.6300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFO0",
+                  amount: "480.7500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDAI",
+                  amount: "4678.0100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEHV",
+                  amount: "3550.8200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEDX",
+                  amount: "1242.3600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OFNO",
+                  amount: "25471.3000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHDZ",
+                  amount: "122815.3700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FAY1",
+                  amount: "36190.4000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCAA",
+                  amount: "1590.0400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFPM",
+                  amount: "2478.1700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDG4",
+                  amount: "90969.9100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHDK",
+                  amount: "317067.0700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBZN",
+                  amount: "5927.0700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FBHH",
+                  amount: "5500.0400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC2V",
+                  amount: "11456.5700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FH63",
+                  amount: "5133.8300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDO2",
+                  amount: "3592.1000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FGYT",
+                  amount: "283523.8700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FCDW",
+                  amount: "225842.4800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHSX",
+                  amount: "4418.0000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OF4M",
+                  amount: "4148.0700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FD3G",
+                  amount: "40307.2400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FFYX",
+                  amount: "210883.0200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FDCR",
+                  amount: "102613.0300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FC71",
+                  amount: "317764.0000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FEEC",
+                  amount: "188492.1000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "FHRV",
+                  amount: "164482.0300",
+                },
+              ],
+            },
+          },
+        },
+        DY: {
+          groupDisciplineName: "Dummy",
+          summaryMap: {
+            DY: {
+              summaryDisciplineName: "Dummy",
+              fundList: [
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UDR4",
+                  amount: "748371.5295",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "USX7",
+                  amount: "5841.9194",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UF2G",
+                  amount: "2239414.8761",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UN2C",
+                  amount: "6038939.9500",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UYCR",
+                  amount: "2238.7200",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UG70",
+                  amount: "709244.7645",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UDS1",
+                  amount: "2269226.8964",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UD8O",
+                  amount: "5148920.4066",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "U318",
+                  amount: "14581.1668",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U2V5",
+                  amount: "21690625.1238",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "U9LO",
+                  amount: "11505.8858",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UWFJ",
+                  amount: "159020.9495",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U62K",
+                  amount: "2998494.6932",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UE26",
+                  amount: "4360133.4066",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U9LO",
+                  amount: "1554358.0177",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UYCR",
+                  amount: "2162384.4498",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "U3Z1",
+                  amount: "514324.7114",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "U62K",
+                  amount: "9564.4248",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UDR9",
+                  amount: "42890.1907",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UD8N",
+                  amount: "5146.5121",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UN2C",
+                  amount: "544436.4500",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U2N2",
+                  amount: "1259710.5813",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U3AC",
+                  amount: "1845387.5214",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "USX7",
+                  amount: "2512436.9959",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UDR7",
+                  amount: "1249506.8520",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "U2W3",
+                  amount: "4610.0722",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "U2V5",
+                  amount: "1558827.6953",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U32Z",
+                  amount: "4902602.0929",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UDR6",
+                  amount: "5205813.0768",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UGT4",
+                  amount: "9259676.8800",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UG74",
+                  amount: "68205.4489",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U3Z1",
+                  amount: "18435218.6381",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U318",
+                  amount: "4362657.7951",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UD8N",
+                  amount: "2780910.1521",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UE26",
+                  amount: "35558.0430",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UGT4",
+                  amount: "115713.2000",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "U32Z",
+                  amount: "10884.8851",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UWFJ",
+                  amount: "2575129.0005",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U2V8",
+                  amount: "4739206.2413",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UDS1",
+                  amount: "223166.6994",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UG73",
+                  amount: "883851.6510",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UG72",
+                  amount: "2318869.3230",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UD8O",
+                  amount: "146031.6441",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UDR8",
+                  amount: "901199.7428",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "U2W3",
+                  amount: "3476283.1129",
+                },
+                {
+                  fundName: "TENET 2001 DCP",
+                  fundCode: "UF2G",
+                  amount: "14823.6581",
+                },
+                {
+                  fundName: "TENET 2006 DCP",
+                  fundCode: "UG71",
+                  amount: "3731907.7012",
+                },
+              ],
+            },
+            VA: {
+              summaryDisciplineName: "Valuation",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "BLNC",
+                  amount: "172195398.5300",
+                },
+              ],
+            },
+          },
+        },
+        OT: {
+          groupDisciplineName: "Other",
+          summaryMap: {
+            OT: {
+              summaryDisciplineName: "Other",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "BOND",
+                  amount: "728832.7700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "NFMF",
+                  amount: "3869081.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "OTHR",
+                  amount: "87293.0000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "EQTY",
+                  amount: "100881944.4300",
+                },
+              ],
+            },
+          },
+        },
+        MF: {
+          groupDisciplineName: "Mutual fund",
+          summaryMap: {
+            MM: {
+              summaryDisciplineName: "Money market",
+              fundList: [
+                {
+                  fundName: "TARGET RETIRE 2060 TENET HLTHCARE",
+                  fundCode: "2643",
+                  amount: "1202604.0200",
+                },
+                {
+                  fundName: "RETIREMENT 2025 TENET TARGET",
+                  fundCode: "2643",
+                  amount: "12089437.4700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0055",
+                  amount: "30931375.5900",
+                },
+                {
+                  fundName: "RETIREMENT 2055 TENET TARGET",
+                  fundCode: "2643",
+                  amount: "3244285.9100",
+                },
+                {
+                  fundName: "RETIREMENT 2035 TENET TARGET",
+                  fundCode: "2643",
+                  amount: "11678441.2100",
+                },
+                {
+                  fundName: "TARGET RETIRE 2050 TENET HLTHCARE",
+                  fundCode: "2643",
+                  amount: "5325359.5600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2738",
+                  amount: "2173.4600",
+                },
+                {
+                  fundName: "RETIREMENT 2045 TENET TARGET",
+                  fundCode: "2643",
+                  amount: "7906785.3700",
+                },
+                {
+                  fundName: "RETIREMENT 2020 TENET TARGET",
+                  fundCode: "2643",
+                  amount: "7458215.2800",
+                },
+                {
+                  fundName: "TARGET RETIRE TODAY TENET HLTHCARE",
+                  fundCode: "2643",
+                  amount: "3880038.7400",
+                },
+                {
+                  fundName: "TARGET RETIRE 2040 TENET HLTHCARE",
+                  fundCode: "2643",
+                  amount: "9333540.5900",
+                },
+                {
+                  fundName: "TARGET RETIRE 2030 TENET HLTHCARE",
+                  fundCode: "2643",
+                  amount: "12937147.3300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2013",
+                  amount: "6174.7900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0454",
+                  amount: "60041.4800",
+                },
+              ],
+            },
+            FI: {
+              summaryDisciplineName: "Fixed income",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2326",
+                  amount: "58827.5100",
+                },
+                {
+                  fundName: "TARGET RETIRE TODAY TENET HLTHCARE",
+                  fundCode: "3047",
+                  amount: "5739894.8010",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2418",
+                  amount: "27905.7500",
+                },
+                {
+                  fundName: "TARGET RETIRE 2030 TENET HLTHCARE",
+                  fundCode: "3047",
+                  amount: "20477946.6326",
+                },
+                {
+                  fundName: "RETIREMENT 2025 TENET TARGET",
+                  fundCode: "3047",
+                  amount: "18189018.1909",
+                },
+                {
+                  fundName: "TARGET RETIRE 2040 TENET HLTHCARE",
+                  fundCode: "2326",
+                  amount: "5921475.8388",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0814",
+                  amount: "18442.4900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3047",
+                  amount: "24477.2800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0331",
+                  amount: "290.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0820",
+                  amount: "111810.6000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2326",
+                  amount: "87366062.8313",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3049",
+                  amount: "33767.3500",
+                },
+                {
+                  fundName: "TARGET RETIRE 2050 TENET HLTHCARE",
+                  fundCode: "3047",
+                  amount: "900444.0796",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2622",
+                  amount: "53761.7400",
+                },
+                {
+                  fundName: "RETIREMENT 2020 TENET TARGET",
+                  fundCode: "3047",
+                  amount: "11061530.2229",
+                },
+                {
+                  fundName: "RETIREMENT 2045 TENET TARGET",
+                  fundCode: "3047",
+                  amount: "1144432.5592",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0038",
+                  amount: "2739379.6800",
+                },
+                {
+                  fundName: "TARGET RETIRE 2050 TENET HLTHCARE",
+                  fundCode: "2326",
+                  amount: "844197.4067",
+                },
+                {
+                  fundName: "RETIREMENT 2035 TENET TARGET",
+                  fundCode: "2326",
+                  amount: "18160665.3285",
+                },
+                {
+                  fundName: "RETIREMENT 2055 TENET TARGET",
+                  fundCode: "3047",
+                  amount: "548545.3830",
+                },
+                {
+                  fundName: "TARGET RETIRE 2060 TENET HLTHCARE",
+                  fundCode: "3047",
+                  amount: "203238.7183",
+                },
+                {
+                  fundName: "TARGET RETIRE TODAY TENET HLTHCARE",
+                  fundCode: "2326",
+                  amount: "19417602.2666",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0026",
+                  amount: "91708.8500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2267",
+                  amount: "4959.2400",
+                },
+                {
+                  fundName: "TARGET RETIRE 2030 TENET HLTHCARE",
+                  fundCode: "2326",
+                  amount: "36356839.9436",
+                },
+                {
+                  fundName: "RETIREMENT 2045 TENET TARGET",
+                  fundCode: "2326",
+                  amount: "1080192.0514",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3041",
+                  amount: "35790.2900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0450",
+                  amount: "767.8000",
+                },
+                {
+                  fundName: "RETIREMENT 2035 TENET TARGET",
+                  fundCode: "3047",
+                  amount: "12852968.5843",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0032",
+                  amount: "14600.6800",
+                },
+                {
+                  fundName: "RETIREMENT 2055 TENET TARGET",
+                  fundCode: "2326",
+                  amount: "514291.2880",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0054",
+                  amount: "166875.8800",
+                },
+                {
+                  fundName: "TARGET RETIRE 2060 TENET HLTHCARE",
+                  fundCode: "2326",
+                  amount: "190606.1589",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0455",
+                  amount: "15388.2100",
+                },
+                {
+                  fundName: "TARGET RETIRE 2040 TENET HLTHCARE",
+                  fundCode: "3047",
+                  amount: "5687619.9485",
+                },
+                {
+                  fundName: "RETIREMENT 2020 TENET TARGET",
+                  fundCode: "2326",
+                  amount: "30684342.1319",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2208",
+                  amount: "29160.4400",
+                },
+                {
+                  fundName: "RETIREMENT 2025 TENET TARGET",
+                  fundCode: "2326",
+                  amount: "44946015.6673",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3082",
+                  amount: "71065.1900",
+                },
+              ],
+            },
+            IQ: {
+              summaryDisciplineName: "International equity",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0818",
+                  amount: "59808.6600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0352",
+                  amount: "10397.9400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0094",
+                  amount: "1044.5100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2120",
+                  amount: "52018.1900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2348",
+                  amount: "424.8400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0318",
+                  amount: "63984703.1023",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1368",
+                  amount: "13002.6200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0309",
+                  amount: "3849.5600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0322",
+                  amount: "120876.3700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2344",
+                  amount: "37272.6500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0342",
+                  amount: "4170.3100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0325",
+                  amount: "129521.1200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2363",
+                  amount: "146514.7900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3228",
+                  amount: "329288.5000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0335",
+                  amount: "67853.5000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2834",
+                  amount: "16813.4500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0302",
+                  amount: "6861.0900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2010",
+                  amount: "4086.6700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0351",
+                  amount: "9729.3100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2369",
+                  amount: "44478.7200",
+                },
+              ],
+            },
+            DQ: {
+              summaryDisciplineName: "Domestic equity",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1282",
+                  amount: "37938.9800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3405",
+                  amount: "594.2100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0353",
+                  amount: "30280.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0314",
+                  amount: "100822.6100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0338",
+                  amount: "77492.4700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0315",
+                  amount: "4857.7500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0507",
+                  amount: "17903.9900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0514",
+                  amount: "2965.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0096",
+                  amount: "4906.0000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1617",
+                  amount: "9960.5900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0333",
+                  amount: "15490.1000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3231",
+                  amount: "84473.9400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3227",
+                  amount: "522710.6700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0060",
+                  amount: "532501.9200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0005",
+                  amount: "8606.7200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0708",
+                  amount: "49.3100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0324",
+                  amount: "2567.3800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1329",
+                  amount: "446891.1300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2328",
+                  amount: "798093.8000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0517",
+                  amount: "9692.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1827",
+                  amount: "22522.3500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0300",
+                  amount: "118244.2700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0009",
+                  amount: "10734.2800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3404",
+                  amount: "1207.4100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0065",
+                  amount: "3809.1500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2365",
+                  amount: "6922.8100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0330",
+                  amount: "5055.7200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0021",
+                  amount: "2743015.1900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2352",
+                  amount: "120421.9300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1315",
+                  amount: "115792.8400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2358",
+                  amount: "137204.7500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0046",
+                  amount: "127062.4300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1271",
+                  amount: "15778.0400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0372",
+                  amount: "403479.0800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3403",
+                  amount: "1459.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0505",
+                  amount: "12118.8600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1958",
+                  amount: "23.7300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0963",
+                  amount: "4222.1200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0580",
+                  amount: "24280.9800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0066",
+                  amount: "29186.4700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3406",
+                  amount: "16368.2500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2338",
+                  amount: "2805.7900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2238",
+                  amount: "29928.2500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3488",
+                  amount: "3208.3500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1314",
+                  amount: "240006.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0354",
+                  amount: "75710.7400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0093",
+                  amount: "250151.5900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1388",
+                  amount: "4564.8900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0022",
+                  amount: "306256.0500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0832",
+                  amount: "6622.3600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0337",
+                  amount: "14839.2100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0042",
+                  amount: "430541.2700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0511",
+                  amount: "23971.7300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0041",
+                  amount: "54172.9400",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0068",
+                  amount: "47293.4000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0027",
+                  amount: "7504.3200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2830",
+                  amount: "63428.2500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1829",
+                  amount: "4807.7500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2361",
+                  amount: "413355.5100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0069",
+                  amount: "1474.4500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2826",
+                  amount: "235244.9300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0762",
+                  amount: "14774.1800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1828",
+                  amount: "214044.4200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0312",
+                  amount: "156787.5600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0008",
+                  amount: "295163.1000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0373",
+                  amount: "7947.2800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0003",
+                  amount: "531.4000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "1389",
+                  amount: "30421.9300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0509",
+                  amount: "52107.6800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0028",
+                  amount: "285962.2700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0007",
+                  amount: "4146.9000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0718",
+                  amount: "6882.3300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2355",
+                  amount: "107473.7700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "5029",
+                  amount: "88338.8600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0303",
+                  amount: "9833.8300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0316",
+                  amount: "148151.9700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3083",
+                  amount: "130656.9600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0304",
+                  amount: "854124.6100",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "6041",
+                  amount: "3433.5900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0045",
+                  amount: "8407.5200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0328",
+                  amount: "82.7800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0064",
+                  amount: "173812.3300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0039",
+                  amount: "1499.8600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0004",
+                  amount: "2139315.1700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0512",
+                  amount: "6095.5600",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2714",
+                  amount: "111495.3700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0833",
+                  amount: "34599.2700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0515",
+                  amount: "4775.0000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2770",
+                  amount: "237711.4700",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3230",
+                  amount: "7370.4800",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0339",
+                  amount: "4842.6500",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0063",
+                  amount: "427079.6200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0516",
+                  amount: "5315.8000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0361",
+                  amount: "1392.7000",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "2941",
+                  amount: "36862.2200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0067",
+                  amount: "6138.9300",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0311",
+                  amount: "37148.3900",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "0014",
+                  amount: "3901.9600",
+                },
+              ],
+            },
+          },
+        },
+        MI: {
+          groupDisciplineName: "GIC",
+          summaryMap: {
+            IC: {
+              summaryDisciplineName: "Investment  contracts",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "GCT4",
+                  amount: "584671521.1300",
+                },
+              ],
+            },
+          },
+        },
+        SA: {
+          groupDisciplineName: "Separate accounts",
+          summaryMap: {
+            FI: {
+              summaryDisciplineName: "Fixed income",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TDS1",
+                  amount: "159562395.6673",
+                },
+              ],
+            },
+            IQ: {
+              summaryDisciplineName: "International equity",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "O9LO",
+                  amount: "102687117.2794",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3963",
+                  amount: "62690844.4591",
+                },
+                {
+                  fundName: "TARGET RETIRE 2060 TENET HLTHCARE",
+                  fundCode: "3963",
+                  amount: "10669236.4667",
+                },
+                {
+                  fundName: "RETIREMENT 2055 TENET TARGET",
+                  fundCode: "3963",
+                  amount: "28744588.6822",
+                },
+                {
+                  fundName: "RETIREMENT 2025 TENET TARGET",
+                  fundCode: "3963",
+                  amount: "47935722.3677",
+                },
+                {
+                  fundName: "TARGET RETIRE 2050 TENET HLTHCARE",
+                  fundCode: "3963",
+                  amount: "47177459.5101",
+                },
+                {
+                  fundName: "TARGET RETIRE 2030 TENET HLTHCARE",
+                  fundCode: "3963",
+                  amount: "64843075.1274",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "O3AC",
+                  amount: "42746947.8954",
+                },
+                {
+                  fundName: "RETIREMENT 2020 TENET TARGET",
+                  fundCode: "3963",
+                  amount: "25711574.8340",
+                },
+                {
+                  fundName: "RETIREMENT 2045 TENET TARGET",
+                  fundCode: "3963",
+                  amount: "54153719.4747",
+                },
+                {
+                  fundName: "RETIREMENT 2035 TENET TARGET",
+                  fundCode: "3963",
+                  amount: "69542099.6595",
+                },
+                {
+                  fundName: "TARGET RETIRE TODAY TENET HLTHCARE",
+                  fundCode: "3963",
+                  amount: "9229369.0615",
+                },
+                {
+                  fundName: "TARGET RETIRE 2040 TENET HLTHCARE",
+                  fundCode: "3963",
+                  amount: "60906893.6433",
+                },
+              ],
+            },
+            BL: {
+              summaryDisciplineName: "Blended",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TG72",
+                  amount: "512137136.7720",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TG70",
+                  amount: "327511359.1147",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TDR4",
+                  amount: "170616971.2982",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TDR6",
+                  amount: "567482557.3641",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TG73",
+                  amount: "346593008.0790",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TG74",
+                  amount: "182646485.7652",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TDR8",
+                  amount: "300189714.8850",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TG71",
+                  amount: "530239360.4200",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TDR9",
+                  amount: "67706741.7929",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TDR7",
+                  amount: "408652818.8420",
+                },
+              ],
+            },
+            DQ: {
+              summaryDisciplineName: "Domestic equity",
+              fundList: [
+                {
+                  fundName: "TARGET RETIRE 2040 TENET HLTHCARE",
+                  fundCode: "6511",
+                  amount: "201681594.4685",
+                },
+                {
+                  fundName: "RETIREMENT 2025 TENET TARGET",
+                  fundCode: "6511",
+                  amount: "158860741.4285",
+                },
+                {
+                  fundName: "RETIREMENT 2020 TENET TARGET",
+                  fundCode: "6511",
+                  amount: "85224493.7729",
+                },
+                {
+                  fundName: "TARGET RETIRE 2060 TENET HLTHCARE",
+                  fundCode: "3988",
+                  amount: "7572068.6899",
+                },
+                {
+                  fundName: "TARGET RETIRE TODAY TENET HLTHCARE",
+                  fundCode: "6511",
+                  amount: "30593136.4192",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "3988",
+                  amount: "96678626.9569",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TF2G",
+                  amount: "89670842.2948",
+                },
+                {
+                  fundName: "RETIREMENT 2035 TENET TARGET",
+                  fundCode: "6511",
+                  amount: "230313178.8048",
+                },
+                {
+                  fundName: "RETIREMENT 2045 TENET TARGET",
+                  fundCode: "6511",
+                  amount: "179171116.5334",
+                },
+                {
+                  fundName: "TARGET RETIRE 2050 TENET HLTHCARE",
+                  fundCode: "6511",
+                  amount: "156115063.9860",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "O32Z",
+                  amount: "170645118.5131",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "6511",
+                  amount: "562235552.3560",
+                },
+                {
+                  fundName: "RETIREMENT 2025 TENET TARGET",
+                  fundCode: "3988",
+                  amount: "34083000.8422",
+                },
+                {
+                  fundName: "TARGET RETIRE 2040 TENET HLTHCARE",
+                  fundCode: "3988",
+                  amount: "43331169.4592",
+                },
+                {
+                  fundName: "RETIREMENT 2055 TENET TARGET",
+                  fundCode: "3988",
+                  amount: "20419197.5859",
+                },
+                {
+                  fundName: "RETIREMENT 2020 TENET TARGET",
+                  fundCode: "3988",
+                  amount: "18321027.5584",
+                },
+                {
+                  fundName: "TARGET RETIRE 2030 TENET HLTHCARE",
+                  fundCode: "6511",
+                  amount: "214596247.8517",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TD8O",
+                  amount: "191096574.1918",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "TD8N",
+                  amount: "95946067.9036",
+                },
+                {
+                  fundName: "RETIREMENT 2045 TENET TARGET",
+                  fundCode: "3988",
+                  amount: "38506519.6365",
+                },
+                {
+                  fundName: "TARGET RETIRE TODAY TENET HLTHCARE",
+                  fundCode: "3988",
+                  amount: "6557093.5091",
+                },
+                {
+                  fundName: "RETIREMENT 2035 TENET TARGET",
+                  fundCode: "3988",
+                  amount: "49460135.7466",
+                },
+                {
+                  fundName: "TARGET RETIRE 2050 TENET HLTHCARE",
+                  fundCode: "3988",
+                  amount: "33517706.9875",
+                },
+                {
+                  fundName: "TARGET RETIRE 2030 TENET HLTHCARE",
+                  fundCode: "3988",
+                  amount: "46091112.5069",
+                },
+                {
+                  fundName: "TARGET RETIRE 2060 TENET HLTHCARE",
+                  fundCode: "6511",
+                  amount: "35256364.2816",
+                },
+                {
+                  fundName: "RETIREMENT 2055 TENET TARGET",
+                  fundCode: "6511",
+                  amount: "95106487.1702",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "O62K",
+                  amount: "50768865.7670",
+                },
+              ],
+            },
+          },
+        },
+        PO: {
+          groupDisciplineName: "Commingled pools",
+          summaryMap: {
+            FI: {
+              summaryDisciplineName: "Fixed income",
+              fundList: [
+                {
+                  fundName: "RETIREMENT 2025 TENET TARGET",
+                  fundCode: "4062",
+                  amount: "26755979.2346",
+                },
+                {
+                  fundName: "RETIREMENT 2035 TENET TARGET",
+                  fundCode: "4062",
+                  amount: "2584562.7072",
+                },
+                {
+                  fundName: "RETIREMENT 2055 TENET TARGET",
+                  fundCode: "4062",
+                  amount: "923170.8446",
+                },
+                {
+                  fundName: "TARGET RETIRE 2040 TENET HLTHCARE",
+                  fundCode: "4062",
+                  amount: "2065325.1079",
+                },
+                {
+                  fundName: "RETIREMENT 2045 TENET TARGET",
+                  fundCode: "4062",
+                  amount: "1749961.4291",
+                },
+                {
+                  fundName: "TARGET RETIRE TODAY TENET HLTHCARE",
+                  fundCode: "4062",
+                  amount: "18027630.2586",
+                },
+                {
+                  fundName: "TARGET RETIRE 2060 TENET HLTHCARE",
+                  fundCode: "4062",
+                  amount: "342263.7322",
+                },
+                {
+                  fundName: "RETIREMENT 2020 TENET TARGET",
+                  fundCode: "4062",
+                  amount: "22607074.8313",
+                },
+                {
+                  fundName: "TARGET RETIRE 2050 TENET HLTHCARE",
+                  fundCode: "4062",
+                  amount: "1515335.6024",
+                },
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "4062",
+                  amount: "27666193.9656",
+                },
+                {
+                  fundName: "TARGET RETIRE 2030 TENET HLTHCARE",
+                  fundCode: "4062",
+                  amount: "9339976.9711",
+                },
+              ],
+            },
+            DQ: {
+              summaryDisciplineName: "Domestic equity",
+              fundList: [
+                {
+                  fundName: "TENET 401(K)",
+                  fundCode: "4005",
+                  amount: "1036021608.0730",
+                },
+              ],
+            },
+          },
+        },
       },
     },
   ];
