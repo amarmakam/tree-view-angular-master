@@ -81,3 +81,19 @@
     </li>
   </ul>
 </div>
+
+<div class="main" style="margin-top: 100px;">
+  <ul class="p-20p">
+    <li>
+      <div class="head-txt d-flex justify-content-between">
+        <span class="mx-2 p-r-20">Client</span>
+        <span class="ml-auto 0">Total</span>
+      </div>
+    </li>
+  </ul>
+  <ul *ngFor="let group of assetsData; index as i" class="p-20p">
+    <li *ngFor="let item of group.items; index as j">
+      
+    </li>
+  </ul>
+</div>
