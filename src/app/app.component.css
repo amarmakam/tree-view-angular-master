@@ -53,3 +53,11 @@ padding: 0 20px;
 .head-txt-cp{
 border-bottom: 1px solid black;
 }
+
+lastChild {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 4fr));
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  margin: 10px 175px 0px 0px;
+}
