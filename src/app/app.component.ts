@@ -5,8 +5,6 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  
-  showData: boolean;
 
   assetsData;
 
@@ -2161,14 +2159,5 @@ export class AppComponent {
   checkChild(parent_i, i) {
     parent_i[i].expand = !parent_i[i].expand;
     parent_i[i].checked = !parent_i[i].checked;
-  }
-
-  // checkSubChild(group_i, parent_i, child_i, i) {
-  //   this.arr[group_i].items[parent_i].childs[child_i].subChilds[i].expand =
-  //     !this.arr[group_i].items[parent_i].childs[child_i].subChilds[i].expand;
-  // }
-
-  checklastChild() {
-    this.showData = !this.showData;
   }
 }
