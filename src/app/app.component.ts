@@ -4944,7 +4944,28 @@ export class AppComponent {
     });
   }
 
+  grpAssetsResponseExpandValue() {
+    this.grpAssetsResponse.forEach((element, i) => {
+      element.groupMap = Object.assign(element.groupMap, {
+        expand: false
+      })
+      for (let key in element.groupMap) {
+        if (key != 'expand') {
+          Object.keys(
+            element.groupMap[key] = Object.assign(element.groupMap[key], {
+              expand: false
+            })
+          )
+        }
+      }
+    });
+    console.log("data", this.grpAssetsResponse);
+
+  }
+
   ngOnInit() {
+    this.expandAndCheckedValues();
+    this.grpAssetsResponseExpandValue();
     this.assetsData = this.aseetsResponseData;
     console.log(this.assetsData);
   }
@@ -4953,4 +4974,5 @@ export class AppComponent {
     parent_i[i].expand = !parent_i[i].expand;
     parent_i[i].checked = !parent_i[i].checked;
   }
+
 }

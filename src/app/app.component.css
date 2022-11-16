@@ -61,3 +61,11 @@ lastChild {
   grid-column-gap: 0px;
   margin: 10px 175px 0px 0px;
 }
+
+.mainClass {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 4fr));
+  grid-row-gap: 4px;
+  grid-column-gap: 60px;
+  border-bottom: 10px;
+}
