@@ -1,12 +1,12 @@
 <div>
-  <ul *ngFor="let group of grpAssetsResponse; index as j" class="p-20p ">
+  <ul *ngFor="let group of grpAssetsResponse; index as j" class="p-20p tree">
     <div>
       <i class="cursor-pointer  mx-2  f-s-20" aria-hidden="true"
         [ngClass]="!group.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'"
         (click)="group.expand = !group.expand"></i>
       <span class="cursor-pointer   mx-2  parent-name" (click)="group.expand = !group.expand">{{group.name}}</span>
     </div>
-    <ul *ngIf="group.expand">
+    <ul *ngIf="group.expand" class="tree">
       <li *ngFor="let parentItem of group.groupMap | keyvalue">
         <div *ngIf="parentItem.key != 'expand'">
           <div class="mainClass">
@@ -22,27 +22,44 @@
             </div>
           </div>
 
-          <ul *ngIf="parentItem.expand">
+
+          <ul *ngIf="parentItem.expand" class="tree">
             <li *ngFor="let childItem of parentItem.value.summaryMap | keyvalue">
-              <div *ngIf="childItem.expand != 'expand'" class="mainClass">
-                <div>
+              <div *ngIf="childItem.expand !== 'expand'" class="mainClass">
+                <div *ngIf="childItem.key !== 'expand' ">
                   <i class="cursor-pointer mx-2 f-s-20" aria-hidden="true"
                     [ngClass]="!childItem.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'"
                     (click)="childItem.expand = !childItem.expand"></i>
-                  <span class="cursor-pointer   mx-2  parent-name"
+                  <span class="cursor-pointer   mx-2  parent-name" 
                     (click)="childItem.expand = !childItem.expand">{{childItem.key}}</span>
                 </div>
                 <span class="cursor-pointer   mx-2  parent-name">{{childItem.value.summaryDisciplineName}}</span>
               </div>
-              <ul *ngIf="childItem.expand">
-                <li *ngFor="let subChildItem of childItem.value.fundList">
-                  <div class="d-flex justify-content-between">
-                    <span>{{subChildItem.fundCode}}</span>
-                    <span>{{subChildItem.fundName}}</span>
-                    <span>{{subChildItem.amount}}</span>
+              <ul *ngIf="childItem.expand" class="tree">
+                <li *ngFor="let subChildItem of childItem.value.fundClassificationMap | keyvalue">
+                  <div *ngIf="subChildItem.expand != 'expand'" class="mainClass">
+                    <div>
+                      <i class="cursor-pointer mx-2 f-s-20" aria-hidden="true"
+                        [ngClass]="!subChildItem.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'"
+                        (click)="subChildItem.expand = !subChildItem.expand"></i>
+                      <span class="cursor-pointer   mx-2  parent-name"
+                        (click)="subChildItem.expand = !subChildItem.expand">{{subChildItem.key}}</span>
+                    </div>
+                    <span
+                      class="cursor-pointer   mx-2  parent-name">{{subChildItem.value.fundClassificationName}}</span>
                   </div>
+                  <ul *ngIf="subChildItem.expand" class="tree">
+                    <li *ngFor="let subChild of subChildItem.value.fundList">
+                      <div class="d-flex justify-content-between">
+                        <span>{{subChild.fundCode}}</span>
+                        <span>{{subChild.fundName}}</span>
+                        <span>{{subChild.amount}}</span>
+                      </div>
+                    </li>
+                  </ul>
                 </li>
               </ul>
+
             </li>
           </ul>
         </div>
