@@ -7,48 +7,57 @@
       </div>
     </li>
   </ul>
-  <ul *ngFor="let group of assetsData; index as i" class="p-20p">
+  <ul *ngFor="let group of assetsData ; index as j" class="p-20p ">
     <div>
       <i class="cursor-pointer  mx-2  f-s-20" aria-hidden="true"
-        [ngClass]="!group.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'"
-        (click)="group.expand = !group.expand"></i>
+        [ngClass]="!group.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'" (click)="group.expand = !group.expand"></i>
       <span class="cursor-pointer   mx-2  parent-name" (click)="group.expand = !group.expand">{{group.name}}</span>
     </div>
     <ul *ngIf="group.expand">
-      <li *ngFor="let item of group.taBusSoldID | keyvalue">
-        <div *ngIf="item.key != 'expand'">
-          <i class="cursor-pointer  mx-2  f-s-20" aria-hidden="true"
-            [ngClass]="!item.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'"
-            (click)="item.expand = !item.expand"></i>
-          <span class="cursor-pointer   mx-2  parent-name" (click)="item.expand = !item.expand">{{item.key}}</span>
-        </div>
-
-        <ul *ngIf="item.expand">
-          <li *ngFor="let child of item.value; index as j">
-            <div class="d-flex justify-content-between">
-              <div>
-                <i class="cursor-pointer  mx-2  f-s-20" aria-hidden="true"
-                  [ngClass]="!child.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'"
-                  (click)="checkChild(item.value,j)"></i>
-                <span class="cursor-pointer   mx-2  parent-name"
-                  (click)="child.expand = !child.expand">{{child.fundCode}}</span>
-              </div>
-              <span class="cursor-pointer   mx-2  parent-name">{{child.fundName}}</span>
-              <span class="cursor-pointer   mx-2  parent-name">{{child.amount}}</span>
+      <li *ngFor="let parentItem of group.taBusSoldID | keyvalue">
+        <div *ngIf="parentItem.key != 'expand'">
+          <div class="mainClass d-flex justify-content-between">
+            <div>
+              <i class="cursor-pointer  mx-2  f-s-20" aria-hidden="true"
+                [ngClass]="!parentItem.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'"
+                (click)="parentItem.expand = !parentItem.expand"></i>
+              <span class="cursor-pointer   mx-2  parent-name"
+                (click)="parentItem.expand = !parentItem.expand">{{parentItem.key}}</span>
             </div>
-
-            <ul *ngIf="child.checked" class="lastChild">
-              <span class="cursor-pointer   mx-2 ">{{child.taSystem}}</span>
-              <span class="cursor-pointer   mx-2 ">{{child.ta}}</span>
-            </ul>
-          </li>
-
-        </ul>
-
+            <div>
+              <span class="cursor-pointer   mx-2 ">{{parentItem?.value?.amount ? parentItem?.value?.amount :
+                '--' }}</span>
+            </div>
+          </div>
+  
+          <ul *ngIf="parentItem.expand">
+            <li *ngFor="let childItem of parentItem.value">
+  
+              <div *ngIf="childItem.expand != 'expand'" class="mainClass d-flex justify-content-between">
+                <div>
+                  <i class="cursor-pointer mx-2 f-s-20" aria-hidden="true"
+                    [ngClass]="!childItem.expand ? 'fa fa-plus-square' : 'fa fa-minus-square'"
+                    (click)="childItem.expand =!childItem.expand"></i>
+                  <span class="cursor-pointer   mx-2  parent-name"
+                    (click)="childItem.expand = !childItem.expand">{{childItem.fundCode}}</span>
+                </div>
+                <span class="cursor-pointer   mx-2 parent-name ">{{childItem.fundName}}</span>
+                <span class="cursor-pointer   mx-2 parent-name ">${{childItem.amount}}</span>
+              </div>
+              <ul *ngIf="childItem.expand">
+                <li *ngFor="let subChildItem of childItem.ta">
+                  <div class="d-flex justify-content-between">
+                    <span>{{subChildItem.taCode}}</span>
+                    <span>{{subChildItem.taSystem}}</span>
+                    <span>{{subChildItem?.amount ? subChildItem?.amount : '--'}}</span>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </li>
     </ul>
-
-
   </ul>
   
 </div>
